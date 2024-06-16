@@ -134,7 +134,7 @@ HitboxTransparency.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HitboxTransparency.Position = UDim2.new(0.0202256888, 0, 0.588435352, 0)
 HitboxTransparency.Size = UDim2.new(0, 137, 0, 37)
 HitboxTransparency.Font = Enum.Font.Unknown
-HitboxTransparency.Text = "Hitbox Transparency: 1"
+HitboxTransparency.Text = "Hitbox Transparency: 0.75"
 HitboxTransparency.TextColor3 = Color3.fromRGB(255, 234, 0)
 HitboxTransparency.TextScaled = true
 HitboxTransparency.TextSize = 14.000
@@ -290,7 +290,7 @@ UIAspectRatioConstraint.AspectRatio = 1.736
 
 -- Scripts:
 
-local function GEUS_fake_script() -- mainFrame.initialize 
+local function ODRMSSL_fake_script() -- mainFrame.initialize 
 	local script = Instance.new('LocalScript', mainFrame)
 
 	local player = game:GetService("Players").LocalPlayer
@@ -412,4 +412,4 @@ local function GEUS_fake_script() -- mainFrame.initialize
 	
 	HitboxIncrease()
 end
-coroutine.wrap(GEUS_fake_script)()
+coroutine.wrap(ODRMSSL_fake_script)()
