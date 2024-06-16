@@ -299,7 +299,7 @@ local function GEUS_fake_script() -- mainFrame.initialize
 	local HitBoxButtons = Buttons:WaitForChild("HitboxButtons")
 	local UserInputService = game:GetService("UserInputService")
 	local RunService = game:GetService("RunService")
-	local hitboxBool = 1
+	local hitboxBool = 4
 	local HitboxTra = 0.75
 	local HeadSize = 0
 	
