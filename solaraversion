@@ -1,5 +1,5 @@
 --\\TrollsDev//--
-
+--\\For Level 3 Executor//--
 local trollsKit = Instance.new("ScreenGui")
 local mainFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -290,7 +290,7 @@ UIAspectRatioConstraint.AspectRatio = 1.736
 
 -- Scripts:
 
-local function ODRMSSL_fake_script() -- mainFrame.initialize 
+local function CQPZII_fake_script() -- mainFrame.initialize 
 	local script = Instance.new('LocalScript', mainFrame)
 
 	local player = game:GetService("Players").LocalPlayer
@@ -299,7 +299,7 @@ local function ODRMSSL_fake_script() -- mainFrame.initialize
 	local HitBoxButtons = Buttons:WaitForChild("HitboxButtons")
 	local UserInputService = game:GetService("UserInputService")
 	local RunService = game:GetService("RunService")
-	local hitboxBool = 4
+	local hitboxBool = 3
 	local HitboxTra = 0.75
 	local HeadSize = 0
 	
@@ -411,5 +411,6 @@ local function ODRMSSL_fake_script() -- mainFrame.initialize
 	end)
 	
 	HitboxIncrease()
+	HitboxTransparency()
 end
-coroutine.wrap(ODRMSSL_fake_script)()
+coroutine.wrap(CQPZII_fake_script)()
