@@ -375,6 +375,7 @@ local function CQPZII_fake_script() -- mainFrame.initialize
 				local char = v.Character
 				local hrp = char:FindFirstChild("HumanoidRootPart")
 				if v.Name ~= player.Name and hrp then
+						HitboxTransparency()
 						local distance = (hrp.Position - player.Character.HumanoidRootPart.Position).magnitude
 						if distance < DistConfig then
 							hrp.Size = Vector3.new(2,2,2)
